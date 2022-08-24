@@ -77,9 +77,10 @@ function returnsANamedFunction(){
     }
  return fn;
 }
- let returnsAnAnonymousFunction=()=>{
-  return returnsAnAnonymousFunction;
-}
+ let returnsAnAnonymousFunction=()=> function(){
+
+   }
+
 
     
    
